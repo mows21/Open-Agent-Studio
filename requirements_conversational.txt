@@ -1,0 +1,57 @@
+# Conversational Agent Studio Requirements
+# Install with: pip install -r requirements_conversational.txt
+
+# Core AI & Agent SDK
+anthropic>=0.18.0
+mcp>=0.1.0
+
+# UI Framework
+PySide2>=5.15.2
+
+# Browser Automation
+playwright>=1.40.0
+selenium>=4.15.0  # Backup for browser automation
+
+# Desktop Automation
+pyautogui>=0.9.54
+pygetwindow>=0.0.9
+pynput>=1.7.6
+
+# Image Processing & Vision
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+imutils>=0.5.4
+
+# OCR
+pytesseract>=0.3.10
+# Note: Also requires tesseract-ocr system package
+# Ubuntu/Debian: sudo apt-get install tesseract-ocr
+# macOS: brew install tesseract
+# Windows: Download from https://github.com/UB-Mannheim/tesseract/wiki
+
+# Optional: DeepSeek-OCR (requires GPU)
+# transformers>=4.46.3
+# torch>=2.6.0
+# vllm>=0.4.0
+
+# Screen Capture
+mss>=9.0.1
+
+# Networking & APIs
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Scheduling
+apscheduler>=3.10.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+
+# Development & Testing (optional)
+pytest>=7.4.0
+black>=23.0.0
+mypy>=1.5.0
