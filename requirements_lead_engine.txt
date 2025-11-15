@@ -1,0 +1,27 @@
+# Lead Engine Agent Requirements
+# Install with: pip install -r requirements_lead_engine.txt
+
+# Core AI & Agent SDK
+anthropic>=0.18.0
+
+# Database
+sqlalchemy>=2.0.0
+
+# Model Context Protocol
+mcp>=0.1.0
+
+# Async HTTP
+aiohttp>=3.9.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Optional: Lead enrichment APIs (install if using enrichment features)
+# clearbit>=0.1.7
+# python-hunter>=2.0.0
+
+# Optional: Advanced data processing
+# pandas>=2.0.0
+
+# Optional: Better database driver for production
+# psycopg2-binary>=2.9.0  # For PostgreSQL
