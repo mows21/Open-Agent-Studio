@@ -1,0 +1,37 @@
+# AI Tutorial Creation Agent Requirements
+
+# Core AI & Agent SDK
+anthropic>=0.18.0
+
+# Screen Recording
+mss>=9.0.1                # Cross-platform screen capture (required)
+dxcam>=0.0.5 ; platform_system=="Windows"  # Windows high-performance capture (optional)
+opencv-python>=4.8.0      # Video processing
+
+# Video Editing
+moviepy>=2.0.0            # Main video editor (required)
+imageio-ffmpeg>=0.4.9     # FFmpeg wrapper
+Pillow>=10.0.0            # Image processing
+
+# Audio & Narration
+pydub>=0.25.1             # Audio manipulation
+gtts>=2.5.0               # Google TTS (free fallback)
+elevenlabs>=0.2.27        # Premium TTS (optional, requires API key)
+pysrt>=1.1.2              # Subtitle generation
+
+# Computer Vision (for live observer)
+ultralytics>=8.0.0        # YOLO models (optional)
+torch>=2.0.0 ; platform_system!="Windows" or platform_machine!="x86_64"  # PyTorch for YOLO
+
+# Input Automation
+pyautogui>=0.9.54         # Keyboard/mouse control (optional)
+
+# Utilities
+numpy>=1.24.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+
+# Note: FFmpeg must be installed separately
+# Windows: https://ffmpeg.org/download.html
+# macOS: brew install ffmpeg
+# Linux: sudo apt-get install ffmpeg
